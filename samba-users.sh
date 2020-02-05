@@ -37,4 +37,4 @@ while read USER GROUP SMBPASS ; do
    (echo "$SMBPASS"; echo "$SMBPASS" ) | smbpasswd -s -a $USER
 
 done
-###############################################################
+################################################################
